@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <html lang="uk">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./images/favicon/site.webmanifest">
+    <link rel="mask-icon" href="./images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
     <title>IDEA</title>
     <!--Fons-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Roboto:wght@400;500;700;900&family=Special+Elite&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Roboto:wght@400;500;700;900&family=Special+Elite&display=swap"
+      rel="stylesheet"
+    />
     <!--Normalise-->
     <link
       rel="stylesheet"
@@ -19,10 +30,45 @@
     />
     <!-- Custom styles -->
     <link rel="stylesheet" href="./css/styles.css" />
-</head>
-<body>
-    <svg>
-        <use href="./images/sprite.svg#icon-logo"></use>
-    </svg>
-</body>
+  </head>
+  <body>
+    <!--Header-->
+    <header class="header">
+      <div class="container header-container">
+        <a class="logo link" href="./index.html">
+          <svg class="logo-icon" height="62" width="48">
+            <use href="./images/sprite.svg#logo"></use>
+          </svg>
+          Idea
+        </a>
+        <nav class="navigation">
+          <ul class="nav-list list">
+            <li class="nav-item">
+              <a href="./index.html" class="nav-link link">Головна</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link link">Портфоліо</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link link">Контакти</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link link">Реєстрація</a>
+            </li>
+            <li class="nav-item"><a href="" class="nav-link link">Вхід</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="container hero-cocontainer">
+        <h1 class="main-title">Рoзробка сайтів</h1>
+        <p class="hero-subtitle">Індивідуальний підхід до кожного клієнта</p>
+        <button class="hero-btn" type="button">Замовити роботу</button>
+      </div>
+    </section>
+    <section>
+         
+    </section>
+  </body>
 </html>
